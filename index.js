@@ -1,6 +1,7 @@
-e strict';
+#!/usr/bin/env node
+'use strict';
 
-//node pow.js '{"challenge": "f8b55e92d345bae0e644419982c2fadcf003289ac3ed638a5651e77ba24d4f5c", "target": "00000560a5e9cfe18772cc5cf6c5e29dc79d118ebcfc5ee72a2d56aff20c0fc6"}'
+//node index.js '{"challenge": "f8b55e92d345bae0e644419982c2fadcf003289ac3ed638a5651e77ba24d4f5c", "target": "00000560a5e9cfe18772cc5cf6c5e29dc79d118ebcfc5ee72a2d56aff20c0fc6"}'
 
 const web3 = require('web3');
 const data = JSON.parse(process.argv[2]);
